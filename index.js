@@ -10,12 +10,11 @@ takeANumber(katzDeliLine, 'Kent');
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length>0){
-  console.log(`We are serving ${katzDeliLine.shift()}`);
-  return katzDeliLine;}
+  return(`We are serving ${katzDeliLine.shift()}`);
+  }
   else if(katzDeliLine.length===0){
     return `There is nobody waiting to be served!`;
   }
 }
 
  
-
