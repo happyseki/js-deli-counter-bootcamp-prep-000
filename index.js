@@ -9,7 +9,7 @@ var katzDeliLine = [];
     return `There is nobody waiting to be served!`;
     } 
     
-    return `Currently serving ${katzDeliLine.shift()}.`; 
+  return `Currently serving ${katzDeliLine.shift()}.`; 
 }
 
 function currentLine(katzDeliLine) {
@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty.";
   }
   
-  var array = [];
+var array = [];
   for (var i = 0 ; i < katzDeliLine.length; i++) {
    array.push(`${i + 1}. ${katzDeliLine[i]}`);
   }
